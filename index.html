@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="diff">
+            <div>
+                <h2>Select Difficulty</h2>
+                <p>(Double Click)</p>
+            </div>
+            <button class="btn" id="Easy" onclick="btnClass(this.getAttribute('id'))">Easy</button>
+            <button class="btn" id="Medium" onclick="btnClass(this.getAttribute('id'))">Medium</button>
+            <button class="btn" id="Hard" onclick="btnClass(this.getAttribute('id'))">Hard</button>
+        </div>
+        <div class="playArea">
+            <h1 class="heading">Press any key to continue</h1>
+            <div id="board""></div>
+        </div>
+        <div class=" scoreBox">
+                <div class="curScore">Score : 0</div>
+                <div class="highScore">Hi-Score : 0</div>
+            </div>
+        </div>
+</body>
+
+<script src="app.js"></script>
+
+</html>

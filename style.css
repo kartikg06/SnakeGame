@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background: url('./images/bg.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: 125vw 100vh;
+}
+
+.diff {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20rem;
+    left: 4rem;
+    align-items: center;
+}
+
+.diff div {
+    margin-bottom: 20px;
+    font-size: 2.65rem;
+    background: linear-gradient(135deg, #2e9579, #893f3f);
+    text-align: center;
+    border: 2px solid black;
+    padding: 0 12px 12px 12px;
+    border-radius: 1.5rem;
+    color: aquamarine;
+}
+
+.btn {
+    width: 35%;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    background-color: transparent;
+    border: 0;
+    color: aliceblue;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-bottom: 1px solid deepskyblue;
+    border-radius: 1rem;
+    color: #2e9579;
+}
+
+.playArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-size: 3.4rem;
+    color: crimson;
+    text-align: center;
+}
+
+#board {
+    width: 83vmin;
+    height: 85vmin;
+    background: linear-gradient(#abdcab, #b3b374);
+    border: 3px solid #068906;
+    opacity: 0.94;
+    display: grid;
+    grid-template-rows: repeat(25, 1fr);
+    grid-template-columns: repeat(25, 1fr);
+}
+
+.scoreBox {
+    height: 26rem;
+    width: 24rem;
+    position: absolute;
+    top: 16rem;
+    right: 4rem;
+    border: 1px solid green;
+    background: linear-gradient(258deg, #a86da9a6, #9193cb96);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreBox div {
+    font-size: 3.5rem;
+    margin: 2rem 0;
+    color: #000000b3;
+}
+
+.food {
+    background-color: black;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.snake {
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
