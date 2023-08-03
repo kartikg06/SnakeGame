@@ -18,14 +18,14 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 20rem;
+    top: 13rem;
     left: 4rem;
     align-items: center;
 }
 
 .diff div {
     margin-bottom: 20px;
-    font-size: 2.65rem;
+    font-size: 2rem;
     background: linear-gradient(135deg, #2e9579, #893f3f);
     text-align: center;
     border: 2px solid black;
@@ -36,7 +36,7 @@
 
 .btn {
     width: 35%;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 1rem 0;
     background-color: transparent;
     border: 0;
@@ -58,7 +58,7 @@
 
 .heading {
     margin-bottom: 20px;
-    font-size: 3.4rem;
+    font-size: 2.4rem;
     color: crimson;
     text-align: center;
 }
@@ -70,15 +70,16 @@
     border: 3px solid #068906;
     opacity: 0.94;
     display: grid;
-    grid-template-rows: repeat(25, 1fr);
-    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(26, 1fr);
+    grid-template-columns: repeat(26, 1fr);
+    padding: 5px;
 }
 
 .scoreBox {
-    height: 26rem;
-    width: 24rem;
+    height: 16rem;
+    width: 18rem;
     position: absolute;
-    top: 16rem;
+    top: 12rem;
     right: 4rem;
     border: 1px solid green;
     background: linear-gradient(258deg, #a86da9a6, #9193cb96);
@@ -90,7 +91,7 @@
 }
 
 .scoreBox div {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin: 2rem 0;
     color: #000000b3;
 }
